@@ -1,59 +1,90 @@
-# GithubMonitorUi
+# ⚛️ GitHubMonitor UI
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Interface de usuário para a aplicação **GitHubMonitor**, desenvolvida em **Angular** para consumir a **GitHubMonitor API**. Este projeto foi criado para fornecer uma experiência de usuário rica e interativa, permitindo a visualização dos dados de repositórios do GitHub de forma simples e eficiente.
 
-## Development server
+---
 
-To start a local development server, run:
+### 📝 Visão Geral do Projeto
 
-```bash
-ng serve
-```
+O **GitHubMonitor UI** é uma aplicação _Single Page Application_ (SPA) construída com **Angular 19**. Ele se conecta à **GitHubMonitor API** para buscar e exibir repositórios de usuários do GitHub. A interface foi projetada para ser limpa, responsiva e de fácil utilização.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Este projeto demonstra:
 
-## Code scaffolding
+* ✅ **Boas práticas de desenvolvimento front-end:** Código limpo, componentização e uma estrutura de projeto escalável.
+* ✅ **Consumo de APIs RESTful:** Integração com o backend para autenticação e busca de dados.
+* ✅ **Interface de usuário moderna:** Construído com as versões mais recentes do Angular e TypeScript.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+### 💻 Tecnologias Utilizadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **Framework:** Angular 19
+* **Linguagem:** TypeScript
+* **Estilização:** SCSS
+* **Gerenciador de Pacotes:** npm
+* **Ferramentas de Build:** Angular CLI
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+### ▶️ Instruções de Configuração e Execução
 
-To build the project run:
+Para rodar o projeto localmente, siga os passos abaixo:
 
-```bash
-ng build
-```
+#### Pré-requisitos
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* [Node.js](https://nodejs.org/) (versão 20.x ou superior)
+* [Angular CLI](https://angular.io/cli) (versão 19.x ou superior)
+* A **[GitHubMonitor API](https://github.com/marcelogmoura/GitHubMonitor.API)** deve estar em execução.
 
-## Running unit tests
+#### Passos
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1.  **Clone o Repositório:**
 
-```bash
-ng test
-```
+    ```bash
+    git clone [URL-DO-SEU-REPOSITORIO-FRONTEND]
+    cd githubmonitor_front
+    ```
 
-## Running end-to-end tests
+2.  **Instale as Dependências:**
 
-For end-to-end (e2e) testing, run:
+    ```bash
+    npm install
+    ```
 
-```bash
-ng e2e
-```
+3.  **Execute o Servidor de Desenvolvimento:**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+    ```bash
+    ng serve
+    ```
 
-## Additional Resources
+    A aplicação estará disponível em `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+### 📜 Scripts Disponíveis
+
+No diretório do projeto, você pode executar:
+
+* `ng serve`: Inicia o servidor de desenvolvimento.
+* `ng build`: Compila o projeto para produção. Os artefatos de build serão armazenados no diretório `dist/`.
+* `ng test`: Executa os testes de unidade via [Karma](https://karma-runner.github.io).
+* `ng watch`: Compila o projeto em modo de desenvolvimento e observa as alterações nos arquivos.
+
+---
+
+### ✨ Próximos Passos (Sugestões)
+
+* **Componentização da Interface:** Criar componentes para a tela de login, listagem de repositórios e detalhes do repositório.
+* **Criação de Serviços:** Implementar serviços para encapsular a lógica de comunicação com a API.
+* **Gerenciamento de Estado:** Utilizar soluções como RxJS com Services ou bibliotecas como NgRx ou Akita para gerenciar o estado da aplicação.
+* **Autenticação e Proteção de Rotas:** Implementar um fluxo de login que armazena o token JWT e o utiliza para proteger rotas.
+
+---
+
+**Autor:** Marcelo Moura
+
+**Contato:**
+
+📧 **Email:** mgmoura@gmail.com
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/marcelogmoura/
