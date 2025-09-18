@@ -26,6 +26,7 @@ Abaixo estão algumas prévias da interface do GitHubMonitor UI.
 ![Tela de Login do GitHubMonitor UI](https://i.postimg.cc/dtQT1xB4/Screenshot-13.jpg)
 
 **Tela de Resultados da Busca:**
+
 ![Tela de Resultados da Busca de Repositórios](https://i.postimg.cc/BnTWVmWf/Screenshot-14.jpg)
 
 ---
@@ -38,6 +39,7 @@ Abaixo estão algumas prévias da interface do GitHubMonitor UI.
 * **Estilização:** SCSS
 * **Gerenciador de Pacotes:** npm
 * **Ferramentas de Build:** Angular CLI
+* **Visualização de Dados:** Chart.js
 
 ---
 
@@ -102,4 +104,10 @@ No diretório do projeto, você pode executar:
 📧 **Email:** mgmoura@gmail.com
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/marcelogmoura/
+
+---
+
+### 🚀 Conheça meu Projeto All Riders
+
+Dê uma olhada no meu outro projeto, o site **[All riders](http://www.allriders.com.br)**!
 
