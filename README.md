@@ -16,6 +16,17 @@ Este projeto demonstra:
 
 ---
 
+---
+
+### 🖼️ Tela da Aplicação
+
+Aqui está uma prévia da tela de login da aplicação:
+
+![Tela de Login do GitHubMonitor UI](https://i.postimg.cc/dtQT1xB4/Screenshot-13.jpg)
+
+---
+
+
 ### 💻 Tecnologias Utilizadas
 
 * **Framework:** Angular 19
@@ -41,7 +52,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1.  **Clone o Repositório:**
 
     ```bash
-    git clone [URL-DO-SEU-REPOSITORIO-FRONTEND]
+    git clone [https://github.com/marcelogmoura/GitHubMonitor_front]
     cd githubmonitor_front
     ```
 
@@ -72,12 +83,11 @@ No diretório do projeto, você pode executar:
 
 ---
 
-### ✨ Próximos Passos (Sugestões)
+### ✨ Futuras implementações
 
 * **Componentização da Interface:** Criar componentes para a tela de login, listagem de repositórios e detalhes do repositório.
 * **Criação de Serviços:** Implementar serviços para encapsular a lógica de comunicação com a API.
 * **Gerenciamento de Estado:** Utilizar soluções como RxJS com Services ou bibliotecas como NgRx ou Akita para gerenciar o estado da aplicação.
-* **Autenticação e Proteção de Rotas:** Implementar um fluxo de login que armazena o token JWT e o utiliza para proteger rotas.
 
 ---
 

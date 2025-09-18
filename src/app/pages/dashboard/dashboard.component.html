@@ -1,0 +1,44 @@
+<header class="main-header">
+  <h1>GitHub Monitor - por Marcelo Moura 17/09/2025</h1>
+  <button (click)="logout()">Sair</button>
+</header>
+
+<main class="container">
+      <div class="suggestion-card-container">
+    <div class="suggestion-card">
+      <p>Exemplos de usuários para se fazer a  busca: microsoft, google, facebook, angular</p>
+    </div>
+  </div>
+
+  <div class="search-container">
+    <form [formGroup]="searchForm" (ngSubmit)="searchUser()">
+      <input type="text" formControlName="username" placeholder="Digite um usuário do GitHub...">
+      <button type="submit" [disabled]="searchForm.invalid || isLoading">
+        {{ isLoading ? 'Buscando...' : 'Buscar' }}
+      </button>
+    </form>
+  </div>
+
+  <div class="results-container">
+    <div *ngIf="isLoading" class="feedback-message">
+      <p>Carregando dados...</p>
+    </div>
+
+    <div *ngIf="errorMessage" class="feedback-message error">
+      <p>{{ errorMessage }}</p>
+    </div>
+
+    <div *ngIf="repositories.length > 0 && !isLoading" class="chart-container">
+      <h3>Top 10 Repositórios por Estrelas</h3>
+      <canvas baseChart
+        [data]="barChartData"
+        [options]="barChartOptions"
+        [type]="barChartType">
+      </canvas>
+    </div>
+
+     <div *ngIf="repositories.length === 0 && !isLoading && !errorMessage" class="feedback-message">
+      <p>Pesquise por um usuário para ver seus repositórios.</p>
+    </div>
+  </div>
+</main>
