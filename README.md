@@ -16,13 +16,17 @@ Este projeto demonstra:
 
 ---
 
----
 
-### 🖼️ Tela da Aplicação
+### 🖼️ Telas da Aplicação
 
-Aqui está uma prévia da tela de login da aplicação:
+Abaixo estão algumas prévias da interface do GitHubMonitor UI.
+
+**Tela de Login:**
 
 ![Tela de Login do GitHubMonitor UI](https://i.postimg.cc/dtQT1xB4/Screenshot-13.jpg)
+
+**Tela de Resultados da Busca:**
+![Tela de Resultados da Busca de Repositórios](https://i.postimg.cc/BnTWVmWf/Screenshot-14.jpg)
 
 ---
 
@@ -98,3 +102,4 @@ No diretório do projeto, você pode executar:
 📧 **Email:** mgmoura@gmail.com
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/marcelogmoura/
+
